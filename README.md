@@ -7,14 +7,14 @@
 
 - ⚡ Fun fact: Passionate about music, I venture into creating compositions that can be heard on a YouTube channel called <b><a href="https://www.youtube.com/@TheLightSideofMyMind-ct3iq">The Light Side of My Mind</a></b>.
 
-- 💪 *Hard Skills*
+- 💪 *Hard Skills* <br>
     ⁜ Systems Development
     ⁜ Data Analysis & Visualization (Advanced Power BI, ETL processes, DAX, Power Query, SQL)
     ⁜ Process Automation and Optimization
     ⁜ Project Management (Agile and Waterfall methodologies, SCRUM)
     ⁜ Microsoft Platforms, MS Project, Office, PowerApps, Power Automate
 
--  🖖💡 *Soft Skills*
+-  🖖💡 *Soft Skills* <br>
     ∑ Critical thinking
     ∑ Data-Driven Decision Making
     ∑ Empathy and relationship-building
