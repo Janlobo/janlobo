@@ -69,6 +69,11 @@
   <img align="center" alt="Git" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
   <img align="center" alt="PowerBI" height="40" width="40" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg">
   <img align="center" alt="VSCode" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
+  <img align="center" alt="Jupyter" height="40" width="50" src="https://raw.githubusercontent.com/github/explore/a4691f04ff219c1c2aa02fc61fda41aa43f1459a/topics/jupyter-notebook/jupyter-notebook.png">
+  <img align="center" alt="Postgresql" height="40" width="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png">
+  <img align="center" alt="Cursor" height="50" width="50" src="https://avatars.githubusercontent.com/u/126759922?s=48&v=4">
+  <img align="center" alt="PowerAutomate" height="40" width="40" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BAP_Blade003_Choose%20your%20free%20trial_Logo_111x111_2x_3?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=120&hei=120&qlt=85&fit=constrain">
+  <img align="center" alt="PowerApps" height="40" width="40" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/BAP_Blade003_Choose%20your%20free%20trial_Logo_111x111_2x_2?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=120&hei=120&qlt=95&fit=constrain">
 </div>
 
 <!-- Linha divisória animada -->
