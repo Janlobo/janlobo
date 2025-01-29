@@ -81,3 +81,8 @@ Graduated in computer Science I am passionate about technology and I´m always u
 
 <!-- Linha divisória animada -->
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=628FDA&height=120&section=footer"/>
+
+# Cursos - Formações - Certificações
+
+<!-- ALURA_CERTIFICATES_START -->
+<!-- ALURA_CERTIFICATES_END -->
