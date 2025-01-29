@@ -1,0 +1,12 @@
+{
+  "name": "janlobo",
+  "version": "1.0.0",
+  "description": "- 😁 A professional with over 20 years of experience in large and mid-sized companies always focused on finding creative solutions that meet business objectives. Graduated in Computer Science, I am passionate about technology and I am always up to date with innovations and researches. I love data analysis and programming.",
+  "main": "Cursos-Certs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
