@@ -1,11 +1,9 @@
-const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
-const API_URL = 'https://www.alura.com.br/api/dashboard/f3f9ff5bce7d04fb3925e9ff8cc54cc49bebbdabeeb43b9861af5d7f9bab821a';
-
 async function fetchCertificates() {
-    const response = await fetch(API_URL);
+    const fetch = (await import('node-fetch')).default;
+    const response = await fetch('https://www.alura.com.br/api/dashboard/f3f9ff5bce7d04fb3925e9ff8cc54cc49bebbdabeeb43b9861af5d7f9bab821a'); // Substitua pela URL da sua API
     const data = await response.json();
     return data;
 }
