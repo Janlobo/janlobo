@@ -23,7 +23,8 @@ async function updateReadme(data) {
     const readmeContent = fs.readFileSync(readmePath, 'utf-8');
     
     const newContent = data.courseProgresses
-        .map(cert => `### ${cert.curso}\n\n${cert.descricao}`)
+//        .map(cert => `### ${cert.curso}\n\n${cert.descricao}`)
+        .map(cert => `### ${cert.name}\n\n${cert.progress}`)
         .join('\n\n');
 
     const updatedReadme = readmeContent.replace(
