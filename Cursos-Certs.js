@@ -13,14 +13,26 @@ async function fetchCertificates() {
 }
 
 async function updateReadme(data) {
+
+    if (!data.courseProgresses || !Array.isArray(data.courseProgresses)) {
+        console.error("❌ Erro: Certificados não encontrados ou formato incorreto.", data);
+        return;
+    }
+
     const readmePath = path.join(__dirname, 'README.md');
     const readmeContent = fs.readFileSync(readmePath, 'utf-8');
     
-    const newContent = data.map(cert => `### ${cert.curso}\n\n${cert.descricao}`).join('\n\n');
+    const newContent = data.courseProgresses
+        .map(cert => `### ${cert.curso}\n\n${cert.descricao}`)
+        .join('\n\n');
 
-    const updatedReadme = readmeContent.replace(/<!-- ALURA_CERTIFICATES_START -->[\s\S]*<!-- ALURA_CERTIFICATES_END -->/, `<!-- ALURA_CERTIFICATES_START -->\n${newContent}\n<!-- ALURA_CERTIFICATES_END -->`);
+    const updatedReadme = readmeContent.replace(
+        /<!-- ALURA_CERTIFICATES_START -->[\s\S]*<!-- ALURA_CERTIFICATES_END -->/, 
+        `<!-- ALURA_CERTIFICATES_START -->\n${newContent}\n<!-- ALURA_CERTIFICATES_END -->`
+    );
 
     fs.writeFileSync(readmePath, updatedReadme);
+    console.log("✅ README atualizado com sucesso!");
 }
 
 fetchCertificates().then(data => updateReadme(data)).catch(err => console.error(err));
