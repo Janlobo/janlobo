@@ -1,8 +1,9 @@
 ## Hi there my name is Jan Lobo👋
 
-- 😁 A professional with over 20 years of experience in large and mid-sized companies always focused on finding creative solutions that meet business objectives. Graduated in Computer Science, I am passionate about technology and I am always up to date with innovations and researches. I love data analysis and programming.
+- 😁 A professional with many years of experience in large and mid-sized companies always focused on finding creative solutions that meet business objectives.
 
-Graduated in computer Science I am passionate about technology and I´m always up to date with innovation and researches. Data analysis and development programs is in my veins
+- 🧑‍🎓 Graduated in Computer Science and MBA, I am passionate about technology and I am always up to date with innovations and researches. I love data analysis and programming.
+
 - 🔭 I’m currently looking for a new challenge!
 - 🌱 I am constantly learning and I am currently in the process of certification in Data Analysis and Power BI by Microsoft, taking the Data Science course at Alura with an emphasis on Python, DAX, SQL and Query M.
 - 👯 I constantly seek ways to enhance productivity and operational performance with a holistic view.
