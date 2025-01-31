@@ -85,11 +85,12 @@ Graduated in computer Science I am passionate about technology and I´m always u
 # Cursos - Formações - Certificações
 
 <!-- ALURA_CERTIFICATES_START -->
-### Power BI: criando visuais customizados
+### Formação: Dominando o Power BI
+ Total de cursos: 6
 
-50
+### Formação: DAX no Power BI
+ Total de cursos: 3
 
-### ChatGPT e programação: aumente sua produtividade
-
-14
+### Formação: Power BI
+ Total de cursos: 4
 <!-- ALURA_CERTIFICATES_END -->
