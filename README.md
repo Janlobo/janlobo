@@ -85,4 +85,11 @@ Graduated in computer Science I am passionate about technology and I´m always u
 # Cursos - Formações - Certificações
 
 <!-- ALURA_CERTIFICATES_START -->
+### Power BI: criando visuais customizados
+
+50
+
+### ChatGPT e programação: aumente sua produtividade
+
+14
 <!-- ALURA_CERTIFICATES_END -->
