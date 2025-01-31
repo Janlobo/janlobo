@@ -4,7 +4,8 @@ const path = require('path');
 
 async function fetchCertificates() {
 //    const fetch = (await import('node-fetch')).default;
-    const response = await fetch('https://www.alura.com.br/api/dashboard/f3f9ff5bce7d04fb3925e9ff8cc54cc49bebbdabeeb43b9861af5d7f9bab821a'); // Substitua pela URL da sua API
+//    const response = await fetch('https://www.alura.com.br/api/dashboard/f3f9ff5bce7d04fb3925e9ff8cc54cc49bebbdabeeb43b9861af5d7f9bab821a'); // Substitua pela URL da sua API
+    const response = await fetch('https://cursos.alura.com.br/user/janlobo/fullCertificate/eb9aaaadee37996ef9365f7e0d3eeddf');
     const data = await response.json();
 
     console.log("🔍 Dados recebidos da API:", JSON.stringify(data, null, 2)); // Mostra o JSON formatado
@@ -23,7 +24,6 @@ async function updateReadme(data) {
     const readmeContent = fs.readFileSync(readmePath, 'utf-8');
     
     const newContent = data.courseProgresses
-//        .map(cert => `### ${cert.curso}\n\n${cert.descricao}`)
         .map(cert => `### ${cert.name}\n\n${cert.progress}`)
         .join('\n\n');
 
