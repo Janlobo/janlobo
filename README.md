@@ -65,7 +65,7 @@
   </a>
 </div>
 
-![Snake animation](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/blob/gh-pages/snake.svg)
+![Snake animation](https://github.com/Janlobo/janlobo/blob/gh-pages/snake.svg)
 
 ### 🛠️ Technologies & Tools
 <div style="display: inline_block" align="center"><br>
