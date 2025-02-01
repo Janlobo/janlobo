@@ -65,6 +65,8 @@
   </a>
 </div>
 
+![Snake animation](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/blob/gh-pages/snake.svg)
+
 ### 🛠️ Technologies & Tools
 <div style="display: inline_block" align="center"><br>
   <img align="center" alt="Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
