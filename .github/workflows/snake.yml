@@ -1,32 +1,29 @@
 name: Generate Snake
 
 on:
-  push:
-    branches:
-      - main
   schedule:
-    - cron: "0 */12 * * *" # executa a cada 12 horas
+    # Executa a cada 6 horas
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
-        - name: Checkout repository
-          uses: actions/checkout@v3
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
 
-        - name: Set up Node.js
-          uses: actions/setup-node@v3
-          id: snake-gif
-          with:
-            node-version: '18'
+      - name: Gerar animação da cobra
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg
 
-        - name: Install dependencies
-          run: npm install
-
-        - name: Run update script
-          run: node update-readme.js
+      - name: Publicar animação no GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./dist
           
         #  github_user_name: janlobo # seu username do GitHub
         #  svg_out_path: dist/github-contribution-grid-snake.svg
