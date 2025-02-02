@@ -86,6 +86,8 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=628FDA&height=120&section=footer"/>
 
 # Cursos - Formações - Certificações
+<div style="display: inline_block" align="center"><br>
+  <img align="left" alt="Alura" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/logo-alura.svg">
 
 <!-- ALURA_CERTIFICATES_START -->
 ### Formação: Dominando o Power BI
