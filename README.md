@@ -87,7 +87,9 @@
 
 # Cursos - Formações - Certificações
 <div style="display: inline_block" align="center"><br>
-  <img align="left" alt="Alura" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/logo-alura.svg">
+<a href="https://cursos.alura.com.br/user/janlobo/fullCertificate/eb9aaaadee37996ef9365f7e0d3eeddf" target="_blank">
+    <img align="left" alt="Alura" height="40" width="120" src="https://github.com/Janlobo/janlobo/blob/main/logo-alura.svg"></a><br><br>
+</div>
 
 <!-- ALURA_CERTIFICATES_START -->
 ### Formação: Dominando o Power BI
