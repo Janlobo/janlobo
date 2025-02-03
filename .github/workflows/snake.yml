@@ -20,7 +20,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          output: dist/snake.svg
+          #output: dist/snake.svg
 
       # Publicar animação no GitHub Pages
       - name: Publicar animação no GitHub Pages
