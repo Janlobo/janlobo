@@ -22,6 +22,10 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           #output: dist/snake.svg
 
+      # Debug: Listar arquivos gerados
+      - name: Listar arquivos gerados
+        run: ls -R
+
       # Publicar animação no GitHub Pages
       - name: Publicar animação no GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
